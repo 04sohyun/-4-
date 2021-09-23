@@ -19,7 +19,7 @@ public class BitWiseOperationShiftExam01 {
 		System.out.printf("%x\n", (byte)(d>>>2));
 		
 		System.out.printf("%x\n", (int)d);//fffffff8
-		System.out.printf("%x\n", (d>>2));
+		System.out.printf("%x\n", (d>>>2));
 		System.out.printf("%x\n", (d>>>2));//d를 2비트 오른쪽 시프트, 왼쪽에 무조건 0이 삽입됨
 		// 3     f      f    f      f     f     f     e   (int타입으로 변환됨)
 		//0011  1111  1111  1111  1111  1111  1111  1110
