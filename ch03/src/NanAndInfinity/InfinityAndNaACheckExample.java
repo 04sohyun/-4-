@@ -6,7 +6,7 @@ public class InfinityAndNaACheckExample {
 		// TODO Auto-generated method stub
 		int x = 5;
 		double y = 0.0;//실수 정수 0에 가까운 실수
-		int i = 0;
+		int i = 0;  
 		
 		double z = x/y;//몫 실수 0.0으로 나누면 오류는 나지 않지만 무한대값으로 나옴
 		double z1 = x%y;//나머지
