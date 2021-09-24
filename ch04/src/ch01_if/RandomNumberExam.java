@@ -1,4 +1,4 @@
-package ch01;
+package ch01_if;
 
 public class RandomNumberExam {
 	public static void main(String[] args) {

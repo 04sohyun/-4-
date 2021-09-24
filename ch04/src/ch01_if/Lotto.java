@@ -1,4 +1,4 @@
-package ch01;
+package ch01_if;
 
 import java.util.HashSet;
 import java.util.Set;

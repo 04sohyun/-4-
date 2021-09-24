@@ -1,4 +1,4 @@
-package ch01;
+package ch01_if;
 
 /*주사위(dice) 1~6눈을 가진 주사위 */
 public class IfDiceExam {
