@@ -7,10 +7,10 @@ public class InputDataCheckNaNExample2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//숫자가 아닌 NaN을 입력받아서 연산 처리
-		String userInput;
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("실수를 입력하세요");;
-		userInput = scanner.next();
+		String userInput = "NaN";
+		//Scanner scanner = new Scanner(System.in);
+		//System.out.println("실수를 입력하세요");;
+		//userInput = scanner.next();
 		
 		
 		

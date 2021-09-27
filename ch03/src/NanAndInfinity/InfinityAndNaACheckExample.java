@@ -1,3 +1,4 @@
+
 package NanAndInfinity;
 
 public class InfinityAndNaACheckExample {

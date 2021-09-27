@@ -16,7 +16,7 @@ public class BitWiseOperExam03 {
 		//비트 논리 연산
 		System.out.println("[비트 연산 결과]");
 		//printf()문 출력 포멧 메소드, print("%출력포멧", 값);//값을 포멧 형태로 출력해줌
-		System.out.println((short)(a&b));//A and B
+		System.out.println((short)(a&b));//A and B//0000 0000 1111 1111
 		//System.out.printf("%0x\n",(short)(a&b));//A and B, %포멧 시작, 0x는 16진수, \n은 escape문자 다음줄로 이동
 		System.out.printf("%04x\n",(short)(a&b));//A and B, %포멧 시작, 0x는 16진수, 04x => 0x사이의 4는 출력 길이표시
 		System.out.printf("%04x\n",(short)(a|b));//

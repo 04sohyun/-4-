@@ -7,7 +7,7 @@ public class If3 {
 		//Integer는 int의 wrappeer클래스
 		//숫자형 문자열로부터 int타입값 추출메소드
 		//Integer.parseInt("정수")
-		int num = Integer.parseInt(args[0]);
+		int num = Integer.parseInt(args [0]);
 		if(num > 0) {
 			System.out.println(num);
 		}else {

@@ -1,21 +1,15 @@
 package ch03_for;
 
-import java.util.Scanner;
-
 public class ForExam5 {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("보고 싶은 구구단은?");
-		int num = scanner.nextInt();
-		System.out.println("구구단 "+num+"단");
-		
-		for(int i=1;i<=9;i++) {
-			System.out.print(num+"*"+i+"="+i*num+"\t");
+		int i;
+		for(i=1;i<=9;i++) {
+			for(int j=1;j<=9;j++) {
+				System.out.print(i +"*"+j+"="+i*j+"\t");
+			}
+			System.out.println();
 		}
-		
-		
-		
-		
+		System.out.println("i = "+i);//10
 	}
 
 }
