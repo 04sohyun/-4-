@@ -28,7 +28,7 @@ public class Work01 {
 			//여성표준 =  (1.07 * 체중kg ) - ( 128 * (체중kg제곱 / 키cm제곱 ) )
 			if("남".equals(gender)) {
 				
-			}
+			} 
 			
 			System.out.print(gender+" "+age+" "+tall+" "+weight);
 			System.out.println("계속 하시겠습니까? yes or no");

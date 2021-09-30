@@ -27,6 +27,7 @@ public class ArrayEx10 {
 	for(int i=0;i<longA.length;i++) {
 		System.out.print(longA[i]+"\t");
 	}
+	System.out.println();
 	System.out.println("실수배열");
 	float[] floatA = new float[5];
 	for(int i=0;i<floatA.length;i++) {
@@ -38,6 +39,12 @@ public class ArrayEx10 {
 		System.out.print(doubleA[i]+"\t");
 	}
 	System.out.println();
+	System.out.println("논리배열");
+	boolean[] booleanA = new boolean[5];
+	for(int i=0;i<booleanA.length;i++) {
+		System.out.print(booleanA[i]+"\t");
+	}
+	System.out.println();
 	System.out.println("참조배열");
 	
 	//배열 생성시 해당타입의 초기값으로 초기화됨.
@@ -47,14 +54,14 @@ public class ArrayEx10 {
 	//각 요소에 접근시 NullPointerException발생함
 	//null이 아닌 다른 값으로 초기화를 해주어야함
 	String[] stringA = new String[5];
-	stringA[0]="a";
+	/*stringA[0]="a";
 	stringA[1]="b";
 	stringA[2]="c";
 	stringA[3]="d";
-	stringA[4]="e";
+	stringA[4]="e";*/
 	
 	for(int i=0;i<stringA.length;i++) {
-		System.out.print(stringA[i].length()+"\t");
+		System.out.print(stringA[i]+"\t");
 	}
 	System.out.println();
 	

@@ -19,8 +19,8 @@ public class Ex03 {
 		//Çâ»óµÈ for¹®À¸·Î ÃÑÁ¡±¸ÇÏ±â
 		for(int s:score) {
 			total += s;
-			System.out.println("ÃÑÁ¡:"+s);
 		}
+		System.out.println("ÃÑÁ¡:"+total);
 	}
 
 }
