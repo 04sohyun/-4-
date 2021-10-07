@@ -31,7 +31,7 @@ public class SnackApplication {
 		System.out.println("프로그램 종료");
 	}
 	
-	//계좌생성하기
+	//상품생성하기
 	private static void createStock() {
 		System.out.println("---------");
 		System.out.println("품목생성");
