@@ -36,9 +36,9 @@ public class SnackApplication {
 		System.out.println("---------");
 		System.out.println("품목생성");
 		System.out.println("---------");
-		System.out.print("제품번호: ");
+		System.out.print("상품번호: ");
 		String item = scanner.next();
-		System.out.print("제품명: ");
+		System.out.print("상품명: ");
 		String name = scanner.next();
 		System.out.print("초기재고량: ");
 		int qty = scanner.nextInt();
