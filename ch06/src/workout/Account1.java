@@ -23,7 +23,7 @@ public void setOwner(String owner) {this.owner = owner;}
 public int getBalance() {return balance;}
 public void setBalance(int balance) {this.balance = balance;}
 
-Account 정보 출력 메소드
+//Account 정보 출력 메소드
 @Override
 public String toString() {
 	return "Account [ 계좌번호="+ano+", 계좌주="+ owner+", 잔고="+balance+"]";
