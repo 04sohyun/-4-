@@ -13,13 +13,8 @@ class Currentconverter{
 	}
 	public static void setRate(double r) {
 		rate = r; // 환율 설정. KWR/$1ㄴ
-		
 	}
-	
 }
-
-
-
 public class StaticMember {
  public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in);

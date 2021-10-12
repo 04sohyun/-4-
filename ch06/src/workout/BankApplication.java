@@ -111,7 +111,6 @@ public class BankApplication {
 		for(int i=0;i<accountArray.length;i++) {
 			if(accountArray[i]!=null) {
 				if(accountArray[i].getAno().equals(ano)) {
-					System.out.println("x:"+accountArray[i]);
 					return accountArray[i];
 				}
 			}	

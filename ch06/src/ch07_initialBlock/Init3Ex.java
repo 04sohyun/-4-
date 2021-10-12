@@ -5,7 +5,7 @@ public class Init3Ex {
 		System.out.println("초기화 테스트");
 		Block b1 = new Block();
 		Block b2 = new Block();
-		//Block b3 = new Block();
+		Block b3 = new Block();
 	}
 }
 //실행 순서 - static초기화 -> 인스턴스초기화 -> 생성자
