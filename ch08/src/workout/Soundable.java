@@ -8,15 +8,17 @@ class Cat implements Soundable{
 
 	@Override
 	public String sound() {
-		 String result="具克";
-		return result;
+		// String result="具克";
+		//return result;
+		return "具克";
 	}
 }
 class Dog implements Soundable{
 
 	@Override
 	public String sound() {
-		String result = "港港";
-		return result;
+		//String result = "港港";
+		//return result;
+		return "港港";
 	}
 }
