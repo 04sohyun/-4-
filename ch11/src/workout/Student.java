@@ -17,10 +17,10 @@ public class Student {
 	}
 
 	@Override
-	public boolean equals(Object obj) {
-		if(obj instanceof Student) {
+	public boolean equals(Object obj) {//객체의 promotion
+		if(obj instanceof Student) {//다형성
 			Student student = (Student) obj;
-			if(studentNum.equals(student.getStudentNum())) {
+			if(studentNum.equals(student.getStudentNum())) {//casting
 				return true;
 			}
 		}

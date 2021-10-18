@@ -17,6 +17,13 @@ public class SplitExample {
 		while(st.hasMoreTokens()) {
 			String token = st.nextToken();
 			System.out.println(token);
-	}
+		}
+		System.out.println();
+		
+		StringTokenizer stk = new StringTokenizer(str, ",");
+		while(stk.hasMoreElements()) {
+			System.out.println(stk.nextElement());
+		}
+	
 	}
 }
