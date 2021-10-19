@@ -6,7 +6,7 @@ public class Board {
 	
 	public Board(String title, String content) {
 		this.title = title;
-		this.content = content;
+		this.content = content; 
 	}
 
 	public String getTitle() {return title;}

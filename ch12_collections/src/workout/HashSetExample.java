@@ -12,7 +12,7 @@ public class HashSetExample {
 		set.add(new Student(2,"신용권"));
 		set.add(new Student(1,"조민우"));
 	
-	
+	 
 	Iterator<Student> iterator = set.iterator();
 	while(iterator.hasNext()) {
 		Student student = iterator.next();

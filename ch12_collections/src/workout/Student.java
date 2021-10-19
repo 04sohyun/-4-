@@ -9,7 +9,7 @@ public class Student {
 	public Student(int studentNum, String name) {
 		this.studentNum = studentNum;
 		this.name = name;
-	}
+	} 
 
 	@Override
 	public int hashCode() {

@@ -9,5 +9,5 @@ public class ListExample {
 		for(Board board:list) {
 			System.out.println(board.getTitle()+"-"+board.getContent());
 		}
-	}
+	} 
 }
