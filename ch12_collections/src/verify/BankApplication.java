@@ -134,14 +134,10 @@ public class BankApplication {
 		//Account 배열에서 ano와 동일한 Account 객체 찾기-
 		//참조타입 배열의 값 비교
 		private static Account findAccount(String ano) {
-			Account account=null;//로컬변수
 			for(int i=0;i<accountArray.size();i++) {
-				  account =(Account) accountArray.get(i);
-				if(account!=null) {  
-				  if(account.getAno().equals(ano))
-					break;//ano에 해당하는 객체 리턴
+				 Account account =accountArray.get(i);
+				  if(account.getAno().equals(ano)) return account;//ano에 해당하는 객체 리턴
 				}
-			}
-			return account;	//배열 전체를 찾아도 없으면 null리턴
+			return null;
 		}
 }

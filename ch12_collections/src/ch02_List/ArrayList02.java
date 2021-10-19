@@ -1,6 +1,7 @@
 package ch02_List;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ArrayList02 {
@@ -8,6 +9,8 @@ public class ArrayList02 {
 		//1.String객체를 담는 List만들고
 		//ArrayList<String> list = new ArrayList<>();
 		List<String> list = new ArrayList<>();
+		//동기화처리 Collenctions.synchronizedxxx()
+		list =Collections.synchronizedList(list);
 		//2."홍길동", "일지매", "임꺽정"을 저장 후 
 		list.add("홍길동");
 		list.add("일지매");

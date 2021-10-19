@@ -1,5 +1,6 @@
 package ch02_List;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -7,6 +8,7 @@ import java.util.Set;
 public class SetEx01 {
 	public static void main(String[] args) {
 		Set<Integer> set = new HashSet<>();
+		set = Collections.synchronizedSet(set);
 		System.out.println(set.add(1));
 		System.out.println(set.add(2));
 		System.out.println(set.add(1));//Áßº¹°´Ã¼ ÀúÀå¾ÈµÊ
