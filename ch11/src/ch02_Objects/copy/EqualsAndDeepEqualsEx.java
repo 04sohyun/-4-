@@ -15,7 +15,7 @@ public class EqualsAndDeepEqualsEx {
 		 * return true;
 		 * else if(a==null||b==null)
 		 * return false;
-		 * else return Arrays.deepEquals0(a,b);*/
+		 * else return Arrays.deepEquals(a,b);*/
 		
 		Integer[] arr1 = {1,2};
 		Integer[] arr2 = {1,2};

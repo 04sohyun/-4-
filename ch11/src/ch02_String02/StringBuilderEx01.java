@@ -13,7 +13,7 @@ public class StringBuilderEx01 {
 		//삽입 insert(index,문자열)
 		sb.insert(4, "2");
 		System.out.println(sb);//toString()내용 출력
-		//sdtChartAt(index,바꿀문자)
+		//setChartAt(index,바꿀문자)
 		sb.setCharAt(4, '6');
 		System.out.println(sb);//toString()내용 출력
 

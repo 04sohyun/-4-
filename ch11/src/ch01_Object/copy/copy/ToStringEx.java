@@ -7,7 +7,7 @@ public class ToStringEx {
 		A a = new A();
 		a.f1="field1";
 		a.i1=10;
-		//toString메소드는 필드갑 출력요으로 재정의하여 사용
+		//toString메소드는 필드값 출력용으로 재정의하여 사용
 		System.out.println(a.toString());
 		
 		//Date클래스의 toString()은 날짜정보출력하도록 재정의 됨

@@ -13,7 +13,7 @@ public class CalendarEx1 {
 		System.out.printf("오늘은  %d/%d/%d %d시입니다.\n",year,month,date,hour);
 		
 		TimeZone timeZone = TimeZone.getTimeZone("Americal/Los_Angeles");
-		Calendar cal2 = Calendar.getInstance();
+		Calendar cal2 = Calendar.getInstance(timeZone);
 		year = cal2.get(Calendar.YEAR);
 		month = cal2.get(Calendar.MONTH)+1;
 		date = cal2.get(Calendar.DAY_OF_MONTH);
