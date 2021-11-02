@@ -37,7 +37,7 @@ public class ConnectionTest10 {
 			while(rs.next()) {
 				String bookname = rs.getString(1);
 				String publisher = rs.getString(2);
-				System.out.println(bookname+"|"+publisher);
+				System.out.println(bookname+"|"+publisher); 
 			}
 			//7.자원해제
 			rs.close();
