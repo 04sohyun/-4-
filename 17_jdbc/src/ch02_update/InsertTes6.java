@@ -6,6 +6,7 @@ import java.sql.Statement;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+//예외객체 깃허브 확인
 //자바프로그램은 dbms저장 default 옵션이 autocommit<-commit 명령 실행하지 않아도 db에 자동 반영
 public class InsertTes6 {
 	public static void main(String[] args) {
@@ -30,13 +31,16 @@ public class InsertTes6 {
 					+name+"','"+balance+"')";
 			 //등록 실행
 			stmt.executeUpdate(sql);
+			boolean run1 = true;
+			while(run1) {
 			System.out.println("계속할까요?>(y/n)");
 			String isRun = scanner.next();
-			if(isRun.equalsIgnoreCase("n")) { 
-				run = false;
-			}else if(isRun.equalsIgnoreCase("y")) {
-				run = true;
+			if(isRun.equalsIgnoreCase("y")) { 
+				run1 = false;
+			}else if(isRun.equalsIgnoreCase("n")) { 
+				run1 = false; run=false;
 			}else {System.out.println("다시 입력하세요");}
+			}
 			
 			}
 			//5.결과조회
